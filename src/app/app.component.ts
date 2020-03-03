@@ -11,7 +11,7 @@ export class AppComponent  {
   myFun(event){
     var txt;
     if (confirm("Press a button!")) {
-  window.location.href='comp2.ts';
+  window.location.href='app2.component.ts';
 } else {
   alert( "You pressed Cancel!");
 }

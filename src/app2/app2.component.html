@@ -1,0 +1,18 @@
+<table class="table">
+ <tr>
+<th>#</th>
+ <th>UserId</th>
+  <th>Name</th>
+ <th>City</th>
+ <th>Age</th>
+ <th>Salary</th>
+  </tr>
+    <tr *ngFor="let users of User; let i = index">
+      <td>{{i + 1}}</td>
+    <td>{{User.UserId}}</td>
+       <td>{{User.Name}}</td>
+       <td>{{User.City}}</td>
+       <td>{{User.Age}}</td>
+       <td>{{User.Salary}}</td>
+       </tr>
+    </table>
